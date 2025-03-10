@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+
+    <!-- rel used for what type folder I want to link with -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="name">My name is Subrata Biswas</h1> <!-- id was given to set specific value for this line -->
+    <h1>I Studied at PSTU.</h1>
+    <h1 class="myClass">And I am not good at anything.</h1>
+    <p class="myClass">My all life is going through uncertainity,poverty,family problem!!</p>
+    <button>Click ME!!</button>
+
+    <!-- To cleate a div with class_name myClass,simply type .myClass and then enter
+    To cleate a div with id_name box,simply type #box and then enter -->
+
+    <!-- To generate a random text,type "lorem" and enter -->
+    <h1 id="align">My name is Subrata Biswas</h1>
+
+    <p id="lorm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vero, repellat quos ea soluta voluptas temporibus accusantium ex, aliquam earum consequatur ad corrupti deserunt, est consectetur molestiae quo eligendi. At.
+    Sapiente ad vero sed rem odio beatae dolores aut perferendis cum ipsum in, tenetur dolor porro quo quis harum quidem? Distinctio doloremque quas praesentium ea. Neque ex iusto totam? Commodi.</p>
+</body>
+</html>
