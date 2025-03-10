@@ -1,0 +1,84 @@
+/* In CSS which line is written letter it's priority is maximum */
+
+/* selector_name {property:value},it's called element selector.
+Its applied to all selector that has same name.Infact we can write multiple selector
+by comma and then set their property.Such as h1,h2,h3{property:value;} */
+h1 {
+    /* get from color picker */
+    color: rgb(63, 41, 43);
+}
+
+button {
+    color: black;
+    background-color: #db7f67;
+}
+
+body {
+    /* get from color pallete */
+    background-color: #A37B73;
+}
+
+div{
+    background-color: black;
+}
+
+/* Its universal selector that applies to all the elements of html file
+*{
+    color:blue;
+}  */
+
+/* Its called id selector.In this what value I was given to a id,
+all the element that has the same name get the same value */
+#name{
+    color:black;
+}
+
+/* Using the same ID for multiple elements is considered bad practice. 
+Instead,we use class selectors. We assign the same class to all elements 
+that need to have the same style or value */
+.myClass{
+    color:brown;
+}
+
+
+/* It's used for specified the position of text.But it aligned in the space 
+which is taken by it's parent. */
+#align{
+    text-align: center;
+}
+
+/* Text decoration used for to give unerline,overline,line-through.And it
+has many more proporties.It also give none property which is generally
+used for to remove the underline from a link. */
+#align{
+    text-decoration: brown wavy underline;
+}
+
+
+/* Font weight used for set for lighter-bolder text.normal,bold,bolder,
+lighter.It's value can be set by number(100-900). */
+#align{
+    font-weight:normal;
+}
+
+/* Font family is used for to set the font type.We can set many type of
+font by comma.The priority was given by first to last.It is used for
+some browser doesn't support some font.For this if I write similar
+type of font by comma then which font is supported by the browser it 
+use this browser. */
+#align{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Font size used for to set the pixels of text */
+#align{
+    font-size: 30px;
+}
+
+
+/* line-height is used to set the gap between lines.
+text-transform used to change the font to uppercase,lowercase,capitalize or none*/
+#lorm{
+    line-height: 30px;
+    text-transform: capitalize;/* capitalize the first character of evry word */
+}
